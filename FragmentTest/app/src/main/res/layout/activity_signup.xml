@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/EDTUsername"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="#4d000000"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:hint="Username"
+            android:textColorHint="#73ffffff"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:textSize="13sp"/>
+
+        <EditText
+            android:id="@+id/EDTPassword"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/EDTUsername"
+            android:background="#4d000000"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:hint="Password"
+            android:textColorHint="#73ffffff"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:textSize="13sp"/>
+
+        <!--<EditText-->
+        <!--android:id="@+id/repassword"-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_below="@+id/password"-->
+        <!--android:background="#4d000000"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:paddingLeft="20dp"-->
+        <!--android:hint="Re-Password"-->
+        <!--android:textColorHint="#73ffffff"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:textSize="13sp"/>-->
+
+        <EditText
+            android:id="@+id/EDTEmail"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/EDTPassword"
+            android:background="#4d000000"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:hint="E-mail"
+            android:textColorHint="#73ffffff"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:textSize="13sp"/>
+
+        <Button
+            android:id="@+id/bRegister"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:background="#009900"
+            android:layout_below="@+id/EDTEmail"
+            android:text="SIGN UP"
+            android:layout_marginTop="30dp"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            />
+
+</RelativeLayout>

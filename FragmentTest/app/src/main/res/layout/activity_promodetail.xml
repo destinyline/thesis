@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.a13560301.dream.fragmenttest.PromoDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            app:srcCompat="@drawable/pro1"
+            android:id="@+id/imageView2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pepper Launch Promotion"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="230dp"
+        android:id="@+id/ProTopic"/>
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Promotion Type : Buy 1 Get 1"
+        android:textSize="14dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/ProTopic"/>
+    <TextView
+        android:id="@+id/tx2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Promotion Time : Now - 31 Dec 2016"
+        android:textSize="14dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tx1"/>
+    <TextView
+        android:id="@+id/tx3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details : Select 1 Menu to get FREE 1 set "
+        android:textSize="14dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tx2"/>
+    <TextView
+        android:id="@+id/tx4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. BBQ Steak Pork and Chicken "
+        android:textSize="14dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tx3"/>
+    <TextView
+        android:id="@+id/tx5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Yakiniku Pork "
+        android:textSize="14dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tx4"/>
+    <TextView
+        android:id="@+id/tx6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Chicken Spicy Steak "
+        android:textSize="14dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tx5"/>
+    <TextView
+        android:id="@+id/tx7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Teriyaki "
+        android:textSize="14dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tx6"/>
+
+    <Button
+        android:text="INVITE FRIENDS"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/toAddEvent_2"
+        android:onClick="onClickAddEvent"
+        />
+
+
+
+</RelativeLayout>
